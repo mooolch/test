@@ -1,16 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 .wrapper {
 	overflow: hidden;
 	min-height: 100%;
 	position: relative;
+	background: #306d85;
+	font-family: 'Fredoka One', cursive;
+}
+
+
+.header{
+	padding: 25px;
+	text-align: center;
+}
+
+.header__title{
+	font-size: 48px;
+	line-height: 1.5;
+	color: #8ec7c7;
+	letter-spacing: 5px;
+}
+
+
+.main {
+	display: flex;
+	justify-content: center;
 }
 
 .main__container {
-	width: 800px;
+	width: 600px;
 	height: 600px;
-	padding: 75px;
-	margin: 150px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 10px;
-	background: #71d3d3;
+	background: #8ec7c7;
 }
 
 .sea {
@@ -18,16 +42,13 @@
 	height: 400px;
 	padding: 25px;
 	border-radius: 50%;
-	margin: 0 auto;
-	background-color: #306d85;
+	background: #306d85;
 	position: relative;
 	overflow: hidden;
 }
 
-.sea__bubbles {
-}
 .sea__buble {
-	background-color: #e7e4c894;
+	background: #e7e4c894;
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
@@ -85,7 +106,6 @@
 		top: 205px;
 	}
 	50% {
-	
 		top: 210px;
 	}
 	100% {
@@ -97,7 +117,7 @@
 .sea__wave {
 	width: 300px;
 	height: 150px;
-	background-color: #2a5f74;
+	background: #2a5f74;
 	position: relative;
 	bottom: 70px;
 	right: 80px;
@@ -110,7 +130,7 @@
 	display: block;
 	width: 300px;
 	height: 150px;
-	background-color: #2a5f74;
+	background: #2a5f74;
 	position: absolute;
 	bottom: 0px;
 	left: 185px;
@@ -121,7 +141,7 @@
 	display: block;
 	width: 300px;
 	height: 150px;
-	background-color: #2a5f74;
+	background: #2a5f74;
 	position: absolute;
 	top: 0px;
 	left: -185px;
@@ -141,7 +161,7 @@
 .sea__wave2 {
 	width: 300px;
 	height: 150px;
-	background-color: #204a5a;
+	background: #204a5a;
 	position: absolute;
 	top: 350px;
 	right: -270px;
@@ -154,7 +174,7 @@
 	display: block;
 	height: 60px;
 	width: 70px;
-	background-color: #d3c3b4;
+	background: #d3c3b4;
 	border-radius: 84% 16% 84% 16% / 16% 87% 13% 84%;
 	position: absolute;
 	top: -30px;
@@ -175,7 +195,7 @@
 .sea__tree {
 	height: 200px;
 	width: 7px;
-	background-color: #d3c3b4;
+	background: #d3c3b4;
 	border-radius: 3px;
 	position: absolute;
 	right: -50px;
@@ -185,7 +205,7 @@
 .sea__tree2 {
 	height: 150px;
 	width: 7px;
-	background-color: #d3c3b4;
+	background: #d3c3b4;
 	border-radius: 3px;
 	position: absolute;
 	left: 20px;
@@ -196,7 +216,7 @@
 .tree__stick {
 	width: 7px;
 	height: 25px;
-	background-color: #d3c3b4;
+	background: #d3c3b4;
 	border-radius: 3px;
 	transform-origin: bottom;
 }
@@ -311,7 +331,7 @@
 }
 
 .head__dots {
-	display: inline-block;
+	display: block;
 	width: 7px;
 	height: 7px;
 	border-radius: 50%;
@@ -372,7 +392,7 @@
 	top: 12px;
 	right: 17px;
 	outline: 5px solid #d72f4b;
-	background-color: #424c58;
+	background: #424c58;
 }
 
 .illuminator__shadow {
@@ -403,9 +423,8 @@
 	top: 25px;
 	right: 90px;
 	border: 5px solid #d72f4b;
-	background-color: #424c585d;
+	background: #424c585d;
 	animation: propeller 0.8s linear infinite;
-	display: flex;
 }
 
 @keyframes propeller {
