@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+body {
+	font-family: "Lato", sans-serif;
+	line-height: 1.6;
+	color: #424551;
+}
+._components {
+	padding: 50px;
+}
+
+/* orange button */
+.button {
+	display: inline-block;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	padding: 13px 40px;
+	transition: all 0.3s ease 0s;
+}
+.button:hover {
+	color: #424551;
+	box-shadow: -1px -1px 6px #424551, 1px 1px 6px #424551;
+}
+
+/* transparent button */
+
+.button--transparent {
+	color: #ff3f3a;
+	border: 1px solid #ff3f3a;
+	background: transparent;
+	padding: 12px 40px;
+	transition: all 0.3s ease 0s;
+}
+.button--transparent:hover {
+	color: #ffffff;
+	background: #ff3f3a;
+}
+
+@media (max-width: 950.98px) {
+	.button {
+		padding: 9px 30px;
+	}
+	.button--transparent{
+		padding: 8px 30px;
+	}
+}
