@@ -1,0 +1,62 @@
+{
+	"[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"},
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "vscode.html-language-features",
+	"files.autoSave": "afterDelay",
+	"editor.mouseWheelZoom": true,
+	"editor.guides.bracketPairs": true,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"css.styleSheets": [],
+	"css.enabledLanguages": ["html"],
+	"workbench.colorTheme": "One Dark Pro Flat",
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"workbench.colorCustomizations": {
+	},
+	"liveSassCompile.settings.forceBaseDirectory": "",
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"autoprefix": " last 5 versions",
+			"extensionName": ".css",
+			"savePath": "css"
+		}
+	],
+	"prettier.printWidth": 120,
+	"emmet.syntaxProfiles": {},
+	"html.format.contentUnformatted": "",
+	"liveServer.settings.fullReload": true,
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"htmlEndTagLabels.labelColor": "#f5deb24d",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"path-autocomplete.pathMappings": {
+    	"@img": "${folder}/src/img", // alias for images
+    	"@scss": "${folder}/src/scss", // alias for scss
+    	"@css": "${folder}/src/css", // alias for css
+    	"@js": "${folder}/src/js", // alias for js
+	},
+	"gutterpreview.sourceFolder": "src/img",
+	"explorer.confirmDelete": false,
+	"[scss]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+	"ecsstractor_port.modifier_separator": "--",
+	"ecsstractor_port.empty_line_before_nested_selector": false,
+	"ecsstractor_port.brackets_newline_after": false,
+	"editor.fontSize": 16,
+	"oneDarkPro.bold": true,
+	"oneDarkPro.vivid": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.singleQuote": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"security.workspace.trust.untrustedFiles": "open"
+}
+
