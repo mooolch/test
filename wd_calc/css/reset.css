@@ -1,0 +1,92 @@
+/* --------- Null ------------ */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:regular,700&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+	padding: 10px;
+	border: 1px solid green;
+	align-self: center;
+	border-radius: 5px;
+	transition: all 0.3s ease 0s;
+}
+button:hover {
+	color: green;
+}
+button:active {
+	transform: translate(0, 3px);
+}
+body {
+	line-height: 1.5;
+	background: #080808;
+	color: #f5f5f5;
+}
+/* ======================================================================================================================================================== */
+main {
+	font-family: 'Ubuntu';
+	font-size: 24px;
+	padding: 30px 15px 10px 15px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+}
+textarea {
+	resize: vertical;
+	padding: 5px;
+	background-color: #f1f1f1;
+	transition: all 0.3s ease 0s;
+	font-size: 16px;
+}
+textarea:focus {
+	outline: transparent;
+	box-shadow: inset 0px 0px 10px green;
+}
+.desc {
+	font-size: 13px;
+}
+#res {
+	font-size: 24px;
+}
